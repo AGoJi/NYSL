@@ -1,0 +1,226 @@
+body{
+    font-family: Verdana;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(166, 253, 56, .2);
+}
+header {
+    background-image: url(/img/Youth-Soccer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    position: relative;
+    top: 0;
+    border-bottom: solid;
+}
+h2 {
+    background-color: white;
+    color: rgb(166, 253, 56);
+    margin-top: 19%;
+    text-align: center;
+    padding-right: 250px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    display: block;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    background-color: rgb(7, 57, 72);
+}
+a {
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: rgb(7, 57, 72);
+}
+aside {
+    display: block;
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+p {
+    margin-left: 3%;
+    font-size: 15px;
+}
+h1, h2, h3{
+    font-weight: normal;
+}
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+h3{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+.mail {
+    display: inline;
+    border-style: none;
+    color: blue;
+    background: none;
+    box-shadow: none;
+    text-decoration: underline;
+    padding-left: 0px;
+}
+.contact {
+    margin-top: 140px;
+}
+img {
+    float: left;
+    height: 250px;
+    margin-top: 11.5%;
+    margin-left: 2%;
+}
+h1 {
+    margin: 0;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(7, 57, 72);
+    background-color: rgba(255, 255, 255, .3);
+}
+nav {
+    position: absolute;
+    top: 312px;
+    left: 25%;
+    display: block;
+    font-size: 20px;
+}
+span {
+    display: none;
+}
+.showUS {
+    display: inline;
+}
+.actualsec {
+    font-weight: bolder;
+    color: rgb(7, 57, 72);
+}
+.show {
+    display: inline;
+}
+.notshow{
+    display: none;
+}
+h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+h6 {
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: square;
+}
+ul ul{
+    list-style-type: circle;
+}
+.bold {
+    font-weight: bold;
+    display: inline;
+}
+.italicsub{
+    text-decoration: underline;
+    font-style: italic;
+}
+th, td {
+    padding: 0px 20px;
+}
+ol ol {
+    list-style-type: lower-alpha;
+}
+footer{
+    display: block;
+    width: 65%;
+    margin-left: 17%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+th{
+    text-align: left;
+    text-decoration: underline;
+}
+td{
+    text-align: center;
+    vertical-align: top;
+}
+table{
+    margin-top: 10px;
+}
+.txtalil{
+    text-align: left;
+}
+.tablemarg{
+    margin-left: 15px;
+}
+.mailmarg{
+    margin-left: 62px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.nomargin{
+    margin: 0;
+}
+.notextw{
+    display: inline;
+    font-weight: normal;
+}
+.centerb{
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(7, 57, 72);
+    color: rgb(166, 253, 56);
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-style: ridge;
+}
+iframe{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-style: ridge;
+}
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.submaps {
+    display: flex;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.titmaps{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.nombot{
+    margin-bottom: 0%;
+}
